@@ -1,2 +1,4 @@
-# B6
-Bootcamp/Assignment~6
+# Assignment-6
+Weather Dashboard
+
+https://anu-dam.github.io/Assignment-6/index.html

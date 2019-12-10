@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="container">
+    <div class="jumbotron">
+        <div class="page-header">
+            <h1>Weather Dashboard</h1>
+        </div>
+    </div>
+    <!-- Body Section -->
+
+    <div class="row">
+            <div class="col-lg-4">
+
+            
+                <h3 id="text">Search for a City</h3>
+                    <input type="text"  value = "London" id="select-city">
+                    <input id="searchBtn" type="submit" value="GO">
+                 
+                
+
+           <div class="btn-group">
+                <button class="selection" id="sydney">Sydney</button>
+                <button class="selection" id="Melbourne">Melbourne</button>
+                <button class="selection" id="Perth">Perth</button>
+                <button class="selection" id="Brisbane">Brisbane</button>
+                <button class="selection" id="Adelaide">Adelaide</button>
+              </div>
+
+            </div>
+
+            <div class="col-lg-8">
+
+                <div>
+                <h1 id="city">Current Weather in</h1>
+                <h3 id="date"> </h3>
+                  
+                  <br>
+                    <h2 id="icon"></h2>
+                </div>
+                    <h4 id="temp">Temprature</h4><br>
+                    <h4 id="cond">Condition</h4><br>
+                    <h4 id="humid">Humidity</h4><br>
+                    <h4 id="wind">Wind Speed</h4><br>
+                    <h4 id="uv">UV</h4><br>
+            </div>
+          </div>
+        
+
+        <div class="row">
+          
+          <div class="col-md-2">
+            <figure>
+              <h4 id="dateOne" class="date"></h4>
+              <br>
+              <h4 id="temp1"></h4>
+              <h4 id="humid1"></h4>
+            </figure>
+            <h2 id="icon1"></h2>
+            <h4 id="des"></h4s>
+
+            
+          </div>
+          <div class="col-md-2">
+            <figure>
+              <h4 id="dateTwo"></h4>
+              <br>
+              <h4 id="temp2"></h4>
+              <h4 id="humid2"></h4>
+            </figure>
+            <h2 id="icon2"></h2>
+            <h4 id="des1"></h4s>
+
+          </div>
+          <div class="col-md-2">
+            <figure>
+              <h4 id="dateThree"></h4>
+              <br>
+              <h4 id="temp3"></h4>
+              <h4 id="humid3"></h4>
+            </figure>
+            <h2 id="icon3"></h2>
+            <h4 id="des2"></h4s>
+
+          </div>
+          <div class="col-md-2">
+          <figure>
+            <h4 id="dateFour"></h4>
+            <br>
+            <h4 id="temp4"></h4>
+              <h4 id="humid4"></h4>
+          </figure>
+          <h2 id="icon4"></h2>
+          <h4 id="des3"></h4s>
+
+        </div>
+
+        <div class="col-md-2">
+          <figure>
+            <h4 id="dateFive"></h4>
+            <br>
+            <h4 id="temp5"></h4>
+              <h4 id="humid5"></h4>
+          </figure>
+          <h2 id="icon5"></h2>
+          <h4 id="des4"></h4s>
+    
+        </div>
+
+      </div>
+     
+          
+
+        </div>
+
+        
+      </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="./JS/script.js"></script>
+
+</body>
+
+</html>

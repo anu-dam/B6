@@ -1,0 +1,70 @@
+
+
+.jumbotron {
+  height: 180px;
+  border-style: solid;
+  
+}
+
+#text {
+  font-size: 18px;
+  display: inline;
+}
+
+#search {
+  width: 200px;
+  margin-top: 15px;
+}
+
+#select-city {
+  display: block;
+  margin-top: 10px;
+  padding: 4px;
+  font-size: 16px;
+}
+
+#searchBtn {
+  display: block;
+  margin-top: 10px;
+  padding: 3px 18px;
+  margin-bottom: 15px;
+  border: 1px solid green;
+}
+
+#searchBtn:hover {
+  background-color: darkgray;
+}
+
+.btn-group button {
+  margin-top: 10px;
+  border: 1px solid green;
+  font-size: 16px;
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer;
+  width: 100%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: darkgray;
+}
+
+.col-lg-8 {
+  /* border: 1px solid rgba(0,0,0,.125); */
+
+  
+  border-style: solid;
+  background-color: rgb(223, 226, 216);
+}
+
+.col-md-2 {
+  margin-left: 20px;
+  margin-top: 20px; 
+  border-style: solid;
+  background-color: rgb(223, 226, 216);
+}
+
+
+
+
